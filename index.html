@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Exchange</title>
+</head>
+<body>
+    <h2>Welcome To Currency Exchange Online</h2>
+    <form action="" name="converter">
+        <label for="convert">Enter the currency you want to convert : </label>
+        <input type="number" name="convert"> <br>
+        <label for="dolar">Shekels To Dollars : </label>
+        <input type="number" name="dolar" id="dolar" readonly><br>
+        <label for="euro">Shekels To Euros : </label>
+        <input type="number" name="euro" id="euro" readonly><br>
+        <label for="dolar">Dollars To Shekels : </label>
+        <input type="number" name="dolar" id="d2s" readonly><br>
+        <label for="euro">Euros To Shekels : </label>
+        <input type="number" name="euro" id="e2s" readonly><br>
+        <input type="button" value="Convert" onclick="currencyConverter(converter.convert.value)">
+        <input type="reset" value="Reset All">
+    </form>
+</body>
+<script src="src.js">
+</script>
+</html>
